@@ -1,0 +1,194 @@
+.body {
+    background: #F2EDE2;
+    padding-top: 20px;
+}
+
+.h1a {
+    color: #000;
+font-size: 90px;
+padding-left: 30px;
+padding-top: 20px;
+font-family: "scotch-display", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.h1b {
+    font-family: "pf-pixelscript", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 0px;
+    left: 700px;
+font-size: 120px;
+padding-left: 25px;
+padding-bottom: 90px;
+}
+
+.gallery {
+    height: 191px;
+    width: 186px;
+    position: fixed;
+}
+
+.img1 {
+    left: 35px;
+    top: 60px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img1:hover {
+    transform: scale(1.25);
+}
+
+.img2 {
+    left: 230px;
+    top: 200px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img2:hover {
+    transform: scale(1.25);
+}
+
+.img3 {
+    left: 65px;
+    top: 360px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img3:hover {
+    transform: scale(1.25);
+}
+
+.img4 {
+    left: 385px;
+    top: 20px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img4:hover {
+    transform: scale(1.25);
+}
+
+.img5 {
+    left: 495px;
+    top: 270px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img5:hover {
+    transform: scale(1.25);
+}
+
+.img6 {
+    left: 625px;
+    top: 460px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img6:hover {
+    transform: scale(1.25);
+}
+
+.img7 {
+    left: 775px;
+    top: 235px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img7:hover {
+    transform: scale(1.25);
+}
+
+.img8 {
+    left: 940px;
+    top: 70px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img8:hover {
+    transform: scale(1.25);
+}
+
+.img9 {
+    left: 1150px;
+    top: 215px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img9:hover {
+    transform: scale(1.25);
+}
+
+.img10 {
+    left: 1235px;
+    top: 440px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img10:hover {
+    transform: scale(1.25);
+}
+
+.hover-text p {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: "scotch-display", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    top: 0px;
+    left: 1200PX;
+    float: right;
+    padding-right: 20px;
+    color: black;
+    transition: color 0.5s; 
+    transition: font-size 0.5s;
+}
+
+.hover-text p:hover {
+    font-size: 45px;
+    color: darkgrey; 
+    cursor: pointer; 
+}
+
+.a1 {
+    float: right;
+    padding-top: 665px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-family: "scotch-display", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
