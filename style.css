@@ -1,0 +1,252 @@
+.body {
+    background: #F2EDE2;
+    padding-top: 20px;
+}
+
+.h1a {
+    color: #000;
+    position: absolute;
+font-size: 90px;
+padding-left: 30px;
+padding-top: 2px;
+font-family: "roc-grotesk", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.h1b {
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position: absolute;
+    top: 0px;
+    left: 700px;
+font-size: 120px;
+padding-left: 30px;
+padding-bottom: 90px;
+padding-top: 80px;
+}
+
+.gallery {
+    height: 191px;
+    width: 186px;
+    position: fixed;
+}
+
+.img1 {
+    left: 35px;
+    top: 60px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img1:hover {
+    transform: scale(1.25);
+}
+
+.img2 {
+    left: 230px;
+    top: 200px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img2:hover {
+    transform: scale(1.25);
+}
+
+.img3 {
+    left: 65px;
+    top: 360px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img3:hover {
+    transform: scale(1.25);
+}
+
+.img4 {
+    left: 385px;
+    top: 20px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img4:hover {
+    transform: scale(1.25);
+}
+
+.img5 {
+    left: 495px;
+    top: 270px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img5:hover {
+    transform: scale(1.25);
+}
+
+.img6 {
+    left: 625px;
+    top: 460px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img6:hover {
+    transform: scale(1.25);
+}
+
+.img7 {
+    left: 775px;
+    top: 235px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img7:hover {
+    transform: scale(1.25);
+}
+
+.img8 {
+    left: 940px;
+    top: 70px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img8:hover {
+    transform: scale(1.25);
+}
+
+.img9 {
+    left: 1150px;
+    top: 215px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img9:hover {
+    transform: scale(1.25);
+}
+
+.img10 {
+    left: 1235px;
+    top: 440px;
+    position: absolute;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.img10:hover {
+    transform: scale(1.25);
+}
+
+.hover-text p {
+    font-size: 35px;
+    padding-top: 10px;
+    font-family: "etna-x-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 0px;
+    left: 1200PX;
+    float: right;
+    padding-right: 40px;
+    color: black;
+    transition: color 0.5s; 
+    transition: font-size 0.5s;
+}
+
+.hover-text p:hover {
+    font-size: 45px;
+    color: darkgrey; 
+    cursor: pointer; 
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.movingImage {
+    position: absolute;
+    height: 181px;
+    width: 176px;
+}
+
+
+.abc1 {
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px; 
+    padding-top: 720px;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .h1a {
+        color: #000;
+        position: absolute;
+    font-size: 40px;
+    padding-left: 3px;
+    padding-top: 2px;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    }
+    
+    .h1b {
+        font-family: "roc-grotesk", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        position: absolute;
+        top: 0px;
+        left: 350px;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-bottom: 90px;
+    padding-top: 40px;
+    }
+
+    .movingImage {
+        position: absolute;
+        height: 101px;
+        width: 96px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+
+
+}
