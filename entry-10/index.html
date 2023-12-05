@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wsk6ote.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wsk6ote.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wsk6ote.css">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Gallery</title>
+
+</head>
+<body class="body", onmousemove="changeColor(event)">
+
+    <h2 class="topbar">Pictures in my camera roll</h2>
+    <a href="https://aaravnarain.github.io/harmonic-collection/"; class="a1">Home</a>
+    
+    <div class="n1">
+        <div>
+            <p class="p">
+                Welcome to my photo gallery! I love taking photos of basically everything when 
+                I’m walking around (so often that my iPhone storage gets full every other day…), but through this entry I wanted to share a peek into my photo gallery, arranged by the month that I took them in.
+            </p>
+
+        </div>
+        <div class="typing-text">
+    <label for="numberInput">Enter a number between 1-12 (1 indicating January, 4 indicating April, and so on): </label>
+    <input type="number" id="numberInput" min="1" max="12" value="1" oninput="updateImage()">
+    </div>
+
+    <div class="imageContainer", id="imageContainer">
+        <!-- The image will be displayed here -->
+    </div>
+    <div>
+        <p class="p">
+            You can enter the same month number multiple times to get random images from the month!
+        </p>
+
+    </div>
+    </div>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
